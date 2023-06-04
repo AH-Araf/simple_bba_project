@@ -30,7 +30,36 @@
     margin: 10px;
     padding: 4px;
 }
-.single-img-last{
-    display: flex;
-    justify-content: center;
-}
+
+@media only screen and (max-width: 500px) {
+    .body-container{
+        margin: 5px 5px;
+    }
+    .heading1-cls{
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to bottom right, red, yellow);
+        color: white;
+        border: 3px solid darkred;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        border-radius: 10px;
+        font-size: large;
+    }
+    .heading2-cls{
+        margin-top: 20px;
+        font-weight: 400;
+        color: darkgreen;
+    }
+    .all-images{
+        display: block;
+    }
+    .all-images img{
+        height: 80px;
+        width: 130px;
+        border: 3px solid darkcyan;
+        margin: 5px;
+        padding: 3px;
+    }
+    
+  }
